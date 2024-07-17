@@ -14,8 +14,8 @@ Buon lavoro e buon divertimento!
 
 soluzione
 
-1.creo l'istanza vue dentro js e inserisco l'array di oggetti dentro data
-2.inserisco all'interno del return un active con indice pari a 0
+1.creo l'istanza vue dentro js e inserisco l'array di oggetti dentro data x 
+2.inserisco all'interno del return un active con indice pari a 0 x
 3.dentro methods creo 2 funzioni per far si che quando arrivo all'ultima slide e clicco ancora per andare a destra mi torni all'inizio e viceversa
 4.dentro la prima funzione (previmage) inserisco una condizione
 5.se l'active dell'immagine è uguale a 0 allora assegno ad active l'indice dell'ultimo elemento
