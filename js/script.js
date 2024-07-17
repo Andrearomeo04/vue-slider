@@ -37,6 +37,14 @@ createApp({
             } else {
                 active_element--
             }
+        },
+        nextimage () {
+            if (active_element === images.length - 1) {
+                active_element = 0
+        
+            } else {
+                active_element++
+            }
         }
     }
 }).mount('#app')
