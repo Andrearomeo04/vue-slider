@@ -31,19 +31,19 @@ createApp({
     },
     methods: {
         previmage () {
-            if (active_element === 0) {
-                active_element = images.length - 1
+            if (active_image === 0) {
+                active_image = this.slides.length - 1
         
             } else {
-                active_element--
+                active_image--
             }
         },
         nextimage () {
-            if (active_element === images.length - 1) {
-                active_element = 0
+            if (active_image === this.slides.length - 1) {
+                active_image = 0
         
             } else {
-                active_element++
+                active_image++
             }
         }
     }
