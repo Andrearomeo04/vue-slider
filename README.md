@@ -23,6 +23,6 @@ soluzione
 8.dentro la seconda funzione (nextimage) faccio il contrario, se l'active dell'immagine è uguale all'indice dell'ultimo elemento allora assegno ad active indice 0
 9.altrimenti incremento active
 10.richiamo le funzioni tramite evento click direttamente nel dom
-11.ciclo le immagini e thumb tramite l'attributo v-for
+11.ciclo le thumb tramite l'attributo v-for
 12.aggiungo l'operatore ternario dentro la classe img delle thumb e controllo se l'active è uguale all'indice
 13.se risulta vera gli inserisco la classe .active altrimenti stringa vuota
